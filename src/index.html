@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genie Folks - Connect and Resolve</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        h1, h2 {
+            color: #333;
+        }
+
+        p {
+            color: #666;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .connect-section {
+            margin-top: 40px;
+        }
+
+        .profile-card {
+            display: flex;
+            align-items: center;
+            background-color: #fff;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+
+        .profile-image {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 15px;
+        }
+
+        .profile-info {
+            flex-grow: 1;
+        }
+
+        .profile-name {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .profile-expertise {
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Genie Folks</h1>
+    <p>Connect with Tech Enthusiasts and Resolve Doubts</p>
+</header>
+
+<div class="container">
+    <section>
+        <h2>Welcome to Genie Folks!</h2>
+        <p>Connect with fellow tech enthusiasts to share knowledge, ask questions, and resolve doubts. Together, we can create a supportive community of Genie Folks!</p>
+    </section>
+
+    <section>
+        <h2>Ask a Question</h2>
+        <form>
+            <label for="question">Your Question:</label>
+            <textarea id="question" name="question" rows="4" required></textarea>
+
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <button type="submit">Submit Question</button>
+        </form>
+    </section>
+
+    <section class="connect-section">
+        <h2>Connect with Other Tech Enthusiasts</h2>
+        <div class="profile-card">
+            <img class="profile-image" src="profile1.jpg" alt="Profile Image">
+            <div class="profile-info">
+                <div class="profile-name">John Doe</div>
+                <div class="profile-expertise">Web Developer</div>
+            </div>
+        </div>
+
+        <div class="profile-card">
+            <img class="profile-image" src="profile2.jpg" alt="Profile Image">
+            <div class="profile-info">
+                <div class="profile-name">Jane Smith</div>
+                <div class="profile-expertise">Data Scientist</div>
+            </div>
+        </div>
+        <!-- Add more profile cards as needed -->
+    </section>
+</div>
+
+</body>
+</html>
